@@ -1,3 +1,17 @@
 img {
   height: 170px;
 }
+
+.field-master {
+  display: flex;
+  justify-content: center;
+}
+
+.field-container {
+  height: 20px;
+  margin: 5px 10px;
+}
+
+.align-right {
+  text-align: right;
+}

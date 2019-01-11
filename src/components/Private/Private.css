@@ -1,0 +1,21 @@
+.timeout {
+  display: flex;
+  justify-content: center;
+}
+
+.timeout-bar {
+  margin-top: 10px;
+  height: 4px;
+  border-top: 4px solid red;
+  animation-duration: 2s;
+  animation-name: timeout;
+  animation-timing-function: linear;
+}
+
+@keyframes timeout {
+  from{
+    width: 200px
+  } to {
+    width: 0px
+  }
+}
